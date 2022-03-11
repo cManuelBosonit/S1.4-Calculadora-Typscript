@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S1.4 Calculadora</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="pantalla">
+            <div id="pantallaAnterior" class="pantallaAnterior">0</div>
+            <div id="pantallaActual" class="pantallaActual"></div>
+        </div>
+        <div class="contenedorBotones">
+            <div class="contenedorBotonesFilaUno">
+                <div class="boton botonOperacion botonExp">exp</div>
+                <div class="boton botonOperacion">/</div>
+                <div class="boton botonOperacion">X</div>
+            </div>
+            <div class="contenedorBotonesFilaDos">
+                <div class="boton botonNumero">7</div>
+                <div class="boton botonNumero">8</div>
+                <div class="boton botonNumero">9</div>
+                <div class="boton botonOperacion">-</div>
+            </div>
+            <div class="contenedorBotonesFilaTres">
+                <div class="boton botonNumero">4</div>
+                <div class="boton botonNumero">5</div>
+                <div class="boton botonNumero">6</div>
+                <div class="boton botonOperacion">+</div>
+            </div>
+            <div class="contenedorBotonesFilaCuatro">
+                <div class="boton botonNumero">1</div>
+                <div class="boton botonNumero">2</div>
+                <div class="boton botonNumero">3</div>
+                <div id="resultado" class="boton">=</div>
+            </div>
+            <div class="contenedorBotonesFilaCinco">
+                <div class="boton botonNumero botonCero">0</div>
+                <div class="boton botonNumero">,</div>
+                <div id="limpiar" class="boton">C</div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
